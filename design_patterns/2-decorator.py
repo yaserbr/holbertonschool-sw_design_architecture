@@ -49,7 +49,7 @@ class CaramelDecorator(Beverage):
         return self._inner.cost() + 15
 
     def description(self) -> str:
-        return self._inner.description() + " + caramel "
+        return self._inner.description() + " + caramel"
 
 
 def main() -> None:
